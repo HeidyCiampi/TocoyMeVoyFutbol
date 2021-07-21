@@ -1,0 +1,287 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="icon" type=image/png href="../Bootstrap/Imagenes/pelota.png">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+  <link rel="stylesheet" href="css/bootstrap.min.css">
+  <link rel="stylesheet" href="estilo.css">
+  <title>Toco y Me Voy Fútbol</title>
+</head>
+
+<body>
+
+  <header>
+    <section>
+      <nav class="navbar navbar-expand-lg navbar-light bg-light ">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="#">
+            <img src="../Bootstrap/Imagenes/logook.png" alt="Toco y Me Voy Futbol" class="imagenNav">
+          </a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown"
+            aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarNavDropdown">
+            <ul class="navbar-nav">
+              <li class="nav-item">
+                <a class="nav-link" href="#instalaciones">Instalaciones</a>
+              </li>
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button"
+                  data-bs-toggle="dropdown" aria-expanded="false">
+                  Servicios
+                </a>
+                <ul class="dropdown-menu bg-light" aria-labelledby="navbarDropdownMenuLink">
+                  <li><a class="dropdown-item" href="#buffet">Buffet</a></li>
+                  <li><a class="dropdown-item" href="#cumple">Cumpleaños</a></li>
+                  <li><a class="dropdown-item" href="#escuelita">Escuelita</a></li>
+                  <li><a class="dropdown-item" href="#producciones">Producciones</a></li>
+                  <li><a class="dropdown-item" href="#filmacion">YouTube</a></li>
+                  <li><a class="dropdown-item" href="#eventos">Eventos</a></li>
+                </ul>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#ubicacion">Ubicación</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="https://wa.link/uquly4" target="_blank">Whatsapp</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+    </section>
+  </header>
+
+  <!--COMIENZA CARRUSEL-->
+  <section>
+    <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="carousel">
+      <div class="carousel-indicators">
+        <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active"
+          aria-current="true" aria-label="Slide 1"></button>
+        <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1"
+          aria-label="Slide 2"></button>
+        <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2"
+          aria-label="Slide 3"></button>
+      </div>
+      <div class="carousel-inner">
+        <div class="carousel-item active">
+          <img src="../Bootstrap/Imagenes/portada1.png" class="d-block w-100 img-fluid " alt="Canchas de futbol 5 y 8">
+          <div class="carousel-caption d-none d-md-block">
+            <h1>Canchas de fútbol 5 y 8</h1>
+            <h2>Canchas Techadas - Césped Sintético Forbex</h2>
+          </div>
+        </div>
+        <div class="carousel-item">
+          <img src="../Bootstrap/Imagenes/vestuarios.png" class="d-block w-100 img-fluid" alt="Vestuarios">
+          <div class="carousel-caption d-none d-md-block">
+            <h1>Vestuarios</h1>
+          </div>
+        </div>
+        <div class="carousel-item">
+          <img src="../Bootstrap/Imagenes/portada2.jpg" class="d-block img-fluid"
+            alt="Cespes Sintetico Forbex - Buffet">
+          <div class="carousel-caption d-none d-md-block">
+            <h1>Tercer Tiempo</h1>
+            <h2>Buffet - Wi fi Zone - Parrillas</h2>
+          </div>
+        </div>
+      </div>
+      <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions"
+        data-bs-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Previous</span>
+      </button>
+      <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions"
+        data-bs-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Next</span>
+      </button>
+    </div>
+  </section>
+  <!--FINALIZA CARRUSEL-->
+
+  <!--SOLO TEXTO MAX 768-->
+  <div class="texto text-center text-light mt-2">
+    <h3>Canchas techadas</h3>
+    <h5>Césped sintético Forbex</h5>
+    <p>Vestuarios - Buffet - Wi fi Zone - Parrilas</p>
+  </div>
+  <!--SOLO TEXTO MAX 768-->
+
+  <!--PROTOCOLO COVID-19-->
+  <section class="text-center mt-4">
+    <button type="button" class="btn btn-danger text-center" data-bs-toggle="modal" data-bs-target="#exampleModal">
+      Protocolo Covid-19
+    </button>
+    <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+      <div class="modal-dialog">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h5 class="modal-title" id="exampleModalLabel">Protocolo Covid-19</h5>
+            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+          </div>
+          <div class="modal-body">
+            <ul class="list-group">
+              <li class="list-group-item">⏱Llegar con 10’ de anticipación, para poder cumplir con protocolo y jugar
+                puntual.</li>
+              <li class="list-group-item">✅Al ingresar será de a una persona, con tapaboca colocado, sanitizará calzado
+                y manos, se le medirá temperatura. Se firmará declaración jurada.</li>
+              <li class="list-group-item">⚽️Se entregará pelota sanitizada y pulverizador con alcohol al 70% para que
+                pueda utilizar en caso que lo considere.</li>
+              <li class="list-group-item">❌🚿Vestuarios/Duchas no se encuentran habilitadas.</li>
+              <li class="list-group-item">🙌🏻Se limitará el ingreso de acompañantes, para evitar aglomeración de
+                personas.</li>
+              <li class="list-group-item">🍻El buffet se encuentra habilitado para cantidad limitada de personas.</li>
+              <li class="list-group-item">🔥El uso de parrilla será con reserva previa.</li>
+              <li class="list-group-item">😷El uso del tapaboca es obligatorio dentro del complejo, salvo cuando esten
+                realizando actividad deportiva y/o ingiriendo bebidas/alimentos.</li>
+              <li class="list-group-item">🧼Dentro del complejo hay “estaciones sanitizantes” en donde encontrará
+                dispenser de alcohol en gel, jabón líquido y toallas de papel descartables.</li>
+            </ul>
+          </div>
+          <div class="modal-footer">
+            <button type="button " class="btn btn-secondary" data-bs-dismiss="modal">Entendido! 💪🏻</button>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!--PROTOCOLO COVID-19-->
+
+  <!-- COMIENZO INSTALACIONES-->
+  <section id="galeria" class="container ">
+    <div class="text-center">
+      <h1 class="mt-5 mb-5 text-light ">INSTALACIONES</h1>
+    </div>
+    <div class="row" id="instalaciones">
+      <div class="col-lg-4 col-md-6 col-sm-12 overflow-hidden"> <img class="img-fluid" src="../Bootstrap/Imagenes/1.jpg"
+          alt="Canchas techadas - Futbol 5 y 8"></div>
+      <div class="col-lg-4 col-md-6 col-sm-12 overflow-hidden"> <img class="img-fluid" src="../Bootstrap/Imagenes/2.jpeg"
+          alt="Canchas techadas - Futbol 5 y 8"></div>
+      <div class="col-lg-4 col-md-6 col-sm-12 overflow-hidden"> <img class="img-fluid" src="../Bootstrap/Imagenes/3.jpg"
+          alt="Canchas techadas - Futbol 5 y 8"></div>
+      <div class="col-lg-4 col-md-6 col-sm-12 overflow-hidden"> <img class="img-fluid" src="../Bootstrap/Imagenes/5.jpeg"
+          alt="Metegol"></div>
+      <div class="col-lg-4 col-md-6 col-sm-12 overflow-hidden"> <img class="img-fluid" src="../Bootstrap/Imagenes/6.jpeg"
+          alt="Vestuarios"></div>
+      <div class="col-lg-4 col-md-6 col-sm-12 overflow-hidden"> <img class="img-fluid" src="../Bootstrap/Imagenes/7.jpeg"
+          alt="Baño"></div>
+      <div class="col-lg-4 col-md-6 col-sm-12 overflow-hidden"> <img class="img-fluid" src="../Bootstrap/Imagenes/8.jpg"
+          alt="Pecheras - Pelota"></div>
+      <div class="col-lg-4 col-md-6 col-sm-12 overflow-hidden"> <img class="img-fluid " src="../Bootstrap/Imagenes/9.jpg"
+          alt="Buffet"></div>
+      <div class="col-lg-4 col-md-6 col-sm-12 overflow-hidden"> <img class="img-fluid" src="../Bootstrap/Imagenes/12.jpg"
+          alt="Complejo Toco y Me Voy"></div>
+    </div>
+  </section>
+  <!-- FIN INSTALACIONES-->
+
+  <!--COMIENZO SERVICIOS-->
+  <section>
+    <div class="text-center">
+      <h1 class="mt-2 text-light ">SERVICIOS</h1>
+    </div>
+    <div class="card-group mt-2 ms-5 me-5 text-center">
+      <div class="card p-1 efecto">
+        <img src="../Bootstrap/Imagenes/buffet.jpg" class="card-img-top" id="buffet" alt="Buffet">
+        <div class="card-body card text-white bg-dark mb-3">
+          <h5 class="card-title">BUFFET</h5>
+          <p class="card-text">Las mejores opciones para que puedas disfrutar del tercer tiempo junto a tus amigos.
+            Tenemos parrillas bajo techo 😎</p>
+        </div>
+      </div>
+      <div class="card p-1 efecto ">
+        <img src="../Bootstrap/Imagenes/cumple.png" class="card-img-top" id="cumple" alt="Festejá tu cumple!">
+        <div class="card-body  card text-white bg-dark mb-3">
+          <h5 class="card-title">CUMPLEAÑOS</h5>
+          <p class="card-text">Vení a festejar tu cumpleaños en nuestro complejo exclusivamente para vos. Consultá las
+            promociones vigentes!🎉</p>
+        </div>
+      </div>
+      <div class="card p-1 efecto">
+        <img src="../Bootstrap/Imagenes/escuelita.jpg" class="card-img-top" id="escuelita" alt="Escuelita de futbol">
+        <div class="card-body  card text-white bg-dark mb-3">
+          <h5 class="card-title">ESCUELITA</h5>
+          <p class="card-text">Tenemos los mejores profesores para que vengas a divertirte, aprender, jugar al fútbol y te conviertas en crack!🤙🏻</p>
+        </div>
+      </div>
+    </div>
+    <div class="card-group mt-2 ms-5 me-5 text-center">
+      <div class="card p-1 efecto">
+        <img src="../Bootstrap/Imagenes/audio.png" class="card-img-top" id="producciones"
+          alt="Producciones Audiovisuales">
+        <div class="card-body  card text-white bg-dark mb-3">
+          <h5 class="card-title">PRODUCCIÓN AUDIOVISUAL</h5>
+          <p class="card-text">Disponemos de un complejo amplio para la realización de producciones audiovisuales. No
+            dudes en contactarnos 📸</p>
+        </div>
+      </div>
+      <div class="card p-1 efecto ">
+        <a href="https://www.youtube.com/channel/UCD7Vkr_2GhGdiItpAwnx1Uw/playlists" target="_blank"> <img
+            src="../Bootstrap/Imagenes/youtubequizas.png" class="card-img-top" id="filmacion"
+            alt="Canal de YouTube"></a>
+        <div class="card-body  card text-white bg-dark mb-3">
+          <h5 class="card-title">FILMACIÓN PARTIDOS</h5>
+          <p class="card-text">Poseemos cámaras en todo el complejo, pedinos el link para ver tu partido o entrá a
+            nuestro
+            canal de YouTube! 👆🏻🎥 </p>
+        </div>
+      </div>
+      <div class="card p-1 efecto ">
+        <img src="../Bootstrap/Imagenes/eventos.jpg" class="card-img-top" id="eventos" alt="Eventos">
+        <div class="card-body  card text-white bg-dark mb-3">
+          <h5 class="card-title">EVENTOS</h5>
+          <p class="card-text">Organizamos eventos deportivos para empresas, con resultados efectivos cuidando todo tipo
+            de detalles ⚽</p>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!--FIN DE SERVICIOS-->
+
+  <!-- COMIENZO UBICACION-->
+  <section class="container text-center">
+    <div class="text-center">
+      <h1 class="mt-5 text-light">UBICACIÓN</h1>
+      <h2 class="text-light" id="ubicacion">Juan Domingo Perón 3844, San Justo</h2>
+    </div>
+    <div class="row">
+      <div class="col-lg-6 col-md-6 col-sm-12 ">
+        <iframe class=" mapa img-fluid w-100 h-100"
+          src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3280.8998398913764!2d-58.55083278538141!3d-34.68247728043915!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95bccd3772e28ee5%3A0x4cbe2cd8d2b6c81e!2sToco%20y%20Me%20Voy%20F%C3%BAtbol!5e0!3m2!1ses-419!2sar!4v1624843316835!5m2!1ses-419!2sar"
+          ;allowfullscreen="" loading="lazy"></iframe>
+      </div>
+      <div class="col-lg-6 col-md-6 col-sm-12">
+        <img class="img-fluid mt-2" src="../Bootstrap/Imagenes/ubicacion.jpg" alt="Ubicación">
+      </div>
+    </div>
+  </section>
+  <!-- FIN UBICACION-->
+
+  <footer>
+    <section class="text-center col-12 bg-light mt-5">
+      <h5>🤙🏻Seguinos en nuestras redes🤙🏻</h5>
+      <a href="https://wa.link/uquly4" target="_blank"> <img class="icono p-1" src="../Bootstrap/Imagenes/whatsapp.svg"
+          alt="Whatsapp"></a>
+      <a href="https://www.facebook.com/tocoymevoyfutbol" target="_blank"> <img class="icono p-1"
+          src="../Bootstrap/Imagenes/facebook.svg" alt="Facebook"></a>
+      <a href="https://www.instagram.com/tocoymevoy.futbol/" target="_blank"> <img class="icono p-1"
+          src="../Bootstrap/Imagenes/instagram.svg" alt="Instangram"></a>
+      <a href="https://www.youtube.com/channel/UCD7Vkr_2GhGdiItpAwnx1Uw/playlists" target="_blank"> <img
+          class="icono p-1" src="../Bootstrap/Imagenes/youtube.svg" alt="YouTube"></a>
+      </div>
+    </section>
+  </footer>
+
+
+  <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js" integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p" crossorigin="anonymous"></script>
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js" integrity="sha384-cVKIPhGWiC2Al4u+LWgxfKTRIcfu0JTxR+EQDz/bgldoEyl4H0zUF0QKbrJ0EcQF" crossorigin="anonymous"></script>
+
+</body>
+</html>
